@@ -2,6 +2,11 @@
 
 # dependencies
 /node_modules
+/srcs
+/assets/img
+/assets/videos
+/assets
+
 /.pnp
 .pnp.js
 
