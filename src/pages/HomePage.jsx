@@ -28,26 +28,26 @@ function HomePage() {
   return (
     <>
         <NavBar/>
-         <header class="position-relative ">
-            <div class="page-header min-vh-100" id='#hero-header'>
-                <span class="mask blur bg-gradient-dark"></span>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 text-start">
-                            <h1 class="text-white">Start Learning <span ref={el}></span>
+         <header className="position-relative ">
+            <div className="page-header min-vh-100" id='#hero-header'>
+                <span className="mask blur bg-gradient-dark"></span>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-8 text-start">
+                            <h1 className="text-white">Start Learning <span ref={el}></span>
                             </h1>
-                            <p class="lead text-white text-start pe-5 mt-4">The more you share is the more you learn.
+                            <p className="lead text-white text-start pe-5 mt-4">The more you share is the more you learn.
                                 This website aims to share free courses from many source. </p>
                             <br />
-                            <div class="buttons">
-                                <button type="button" class="btn btn-lg btn-white">Contact Us</button>
-                                <button type="button" class="btn btn-lg btn-link text-white">Submit Courses</button>
+                            <div className="buttons">
+                                <button type="button" className="btn btn-lg btn-white">Contact Us</button>
+                                <button type="button" className="btn btn-lg btn-link text-white">Submit Courses</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="position-absolute w-100 z-index-1 bottom-0">
+            <div className="position-absolute w-100 z-index-1 bottom-0">
                  <Svg/>
             </div>
         </header>

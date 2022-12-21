@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/srcs
+/static
 /assets/img
 /assets/videos
 /assets
