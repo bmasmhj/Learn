@@ -6,11 +6,6 @@ import AOS from "aos";
 import { useEffect } from "react";
 
 function App() {
-   useEffect(() => {
-        setTimeout(() => {
-            AOS.init();
-        }, 1500);
-      });
   return (
     <>
       <Routes>
