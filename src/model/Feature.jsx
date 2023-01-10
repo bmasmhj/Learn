@@ -7,8 +7,8 @@ function Feature(){
             <div class="col-lg-3 mx-auto">
                 <div class="device-wrapper position-relative">
                 <img data-aos="fade-up" class="w-100 mt-7 z-index-1 ms-n10 position-relative shadow border-radius-md position-absolute  d-none d-sm-none d-md-none d-lg-block d-xl-block" src="https://learn.bimash.com.np/assets/img/thumbnails/dart-101-01-dart-in-100-seconds.png"/>
-                <img class="w-100 d-block d-md-none" src="http://localhost/learn/assets/img/ggg.png"/>
-                <img class="w-100 d-none  d-md-block  " src="http://localhost/learn/assets/img/ggg2.png"/>
+                <img class="w-100 d-block d-md-none" src="http://learn.bimash.com.np/assets/img/ggg.png"/>
+                <img class="w-100 d-none  d-md-block  " src="http://learn.bimash.com.np/assets/img/ggg2.png"/>
                 <img data-aos="fade-up" class="w-100 bottom-0 z-index-1 position-relative shadow border-radius-md position-absolute ms-8 mb-5 d-none d-sm-none d-md-none d-lg-block d-xl-block" src="https://learn.bimash.com.np/assets/img/thumbnails/firebase-security-course-01-firebase-security-in-100-seconds.png"/>
                 </div>
             </div>
