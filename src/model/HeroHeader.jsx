@@ -11,7 +11,7 @@ function HeroHeader() {
     const el = useRef(null);
 useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Handy", "Mandy", "Candy", "More Strings"], // Strings to display
+      strings: ["React Js", "Firebase", "Flutter", "NextJs"], // Strings to display
       // Speed settings, try diffrent values untill you get good results
       startDelay: 100,
       typeSpeed: 100,
