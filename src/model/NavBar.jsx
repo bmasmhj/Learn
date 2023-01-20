@@ -1,35 +1,35 @@
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 function NavBar() {
     useEffect(() => {
         startnav();
       });
   return (
     <>
-     <div id="navtop" className="position-sticky z-index-sticky container top-0">
+        <div id="navtop" className="position-sticky z-index-sticky container top-0">
             <div className="row">
                 <div className="col-12">
                     <nav id="navbar" className="navbar navbar-expand-lg  blur  top-0 z-index-fixed shadow position-absolute py-2 start-0 end-0">
                             <div className="container d-flex justify-content-between">
                                 <div>
-                                    <h2 className="navbar-brand" href="#" rel="tooltip" title="Designed and Coded by Creative Tim"
-                                        data-placement="bottom" target="_blank">
+                                    <NavLink to='/' className="navbar-brand h2">
                                         L E A R N
-                                    </h2>
+                                    </NavLink>
                                 </div>
                         
                                 <div className="nav-item dropdown dropdown-hover mx-2">
                                     <div className="d-flex align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false"
                                         role="button">
-                                        <a href="javascript:;" className="mx-3 avatar avatar-sm rounded-circle">
-                                            <img alt="Image placeholder" src="https://bimash.com.np/assets/img/favicon.png" />
-                                        </a>
+                                        <NavLink to='/Profile' className="mx-3 avatar avatar-sm rounded-circle">
+                                            <img alt="placeholder" src="https://bimash.com.np/assets/img/favicon.png" />
+                                        </NavLink>
                                         <h6 className="d-none d-md-block m-0">Bimash</h6>
                                     </div>
                                     <div className="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
                                         <div className="d-none d-lg-block">
                                             <ul className="list-group">
                                                 <li className="nav-item list-group-item border-0 p-0">
-                                                    <a className="dropdown-item py-2 ps-3 border-radius-md" href="">
+                                                    <NavLink className="dropdown-item py-2 ps-3 border-radius-md" to="">
                                                         <div className="d-flex">
                                                             <div className="icon h-10 me-3 d-flex mt-1"> </div>
                                                             <div>
@@ -37,10 +37,10 @@ function NavBar() {
                                                                     My Profile</h6>
                                                             </div>
                                                         </div>  
-                                                    </a>
+                                                    </NavLink>
                                                 </li>
                                                 <li className="nav-item list-group-item border-0 p-0">
-                                                    <a className="dropdown-item py-2 ps-3 border-radius-md" href="">
+                                                    <NavLink className="dropdown-item py-2 ps-3 border-radius-md" to="">
                                                         <div className="d-flex">
                                                             <div className="icon h-10 me-3 d-flex mt-1"> </div>
                                                             <div>
@@ -48,7 +48,7 @@ function NavBar() {
                                                                     Log Out</h6>
                                                             </div>
                                                         </div>
-                                                    </a>
+                                                    </NavLink>
                                                 </li>
                                             </ul>
                                         </div>

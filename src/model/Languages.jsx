@@ -8,27 +8,27 @@ function Languages(){
                 <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="row justify-content-start">
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/1.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="500" src="http://learn.bimash.com.np/assets/img/courses/2.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="300" src="http://learn.bimash.com.np/assets/img/courses/3.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="400" src="http://learn.bimash.com.np/assets/img/courses/4.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="600" src="http://learn.bimash.com.np/assets/img/courses/5.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="700" src="http://learn.bimash.com.np/assets/img/courses/6.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/7.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/8.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="500" src="http://learn.bimash.com.np/assets/img/courses/9.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/10.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/11.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="800" src="http://learn.bimash.com.np/assets/img/courses/12.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/13.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="200" src="http://learn.bimash.com.np/assets/img/courses/14.svg" alt="" />
-                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/15.png" alt="" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/1.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="500" src="http://learn.bimash.com.np/assets/img/courses/2.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="300" src="http://learn.bimash.com.np/assets/img/courses/3.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="400" src="http://learn.bimash.com.np/assets/img/courses/4.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="600" src="http://learn.bimash.com.np/assets/img/courses/5.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="700" src="http://learn.bimash.com.np/assets/img/courses/6.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/7.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/8.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="500" src="http://learn.bimash.com.np/assets/img/courses/9.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/10.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/11.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="800" src="http://learn.bimash.com.np/assets/img/courses/12.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/13.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="200" src="http://learn.bimash.com.np/assets/img/courses/14.svg" alt="course title" />
+                        <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/15.png" alt="course title" />
                     </div>
                     
                 </div>
                 <div class="col-lg-4 ms-auto">
                     <div class="card">
-                    <img class="card-img-top" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/funny.jpg" />
+                    <img alt='' class="card-img-top" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/funny.jpg" />
                     <div class="position-relative overflow-hidden smallwaves" >
                         <div class="position-absolute w-100 top-0 z-index-1">
                             <Svg/>

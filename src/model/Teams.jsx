@@ -1,7 +1,7 @@
 function Teams(){
     return(
         <>
-            <section class="m-0 py-5 bg-white position-relative">
+            {/* <section class="m-0 py-5 bg-white position-relative">
                 
                 <div class="container">
                     <div class="row">
@@ -107,7 +107,7 @@ function Teams(){
                     </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             
         </>
     )
