@@ -30,79 +30,49 @@ section {
     margin: 20px auto;
 }
 .mbl{
-    height: 80vh !important;
+    height: 70vh !important;
     overflow: auto;
 }
-hr.short-primary {
-    /* border-top: 3px solid #337ab7; */
-    width: 30px;
-}
-
-.panel-full-video {
-    /* border: 3px solid #337ab7; */
-}
-
-.panel-full-video .video-title {
-    margin-top: 0px;
-}
-
 h2 {
     font-family: "Oswald", sans-serif;
 }
 
-.video-thumbnail {
-    position: relative;
-    margin-bottom: 10px;
-}
 #hero-header{
     background-image: url(../img/bg.png)
-}
-
-.video-thumbnail .play_button {
-    position: absolute;
-    border: 1px solid #ffffff;
-    opacity: 0.6;
-    font-size: 1rem;
-    top: 35%;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    border-radius: 10px;
-    z-index: 1;
-    -webkit-transition: all 600ms ease-in-out;
-    -moz-transition: all 600ms ease-in-out;
-    -ms-transition: all 600ms ease-in-out;
-    -o-transition: all 600ms ease-in-out;
-    transition: all 600ms ease-in-out;
-}
-
-.video-thumbnail .video_src {
-    border-radius: 5px;
-    /* border: 3px solid #337ab7; */
-    /* width: 100%; */
-    cursor: pointer;
-}
-.video-thumbnail.active{
-    /* border : 5px solid #337ab7; */
-    border-radius: 15px;
-    background: #eee;
-}
-.video-thumbnail.active>.play_button,
-.video-thumbnail:hover>.play_button {
-    opacity: 1;
-    z-index: 8;
-    background-color: #337ab7;
-    animation: pulse 1s ease-in-out 0.66s infinite;
 }
 .justify-space-between{
     justify-content: space-between;
 }
-
-.active{
-    background-color: #eee;
+.video_thumbnail.active{
+    cursor: pointer;
+        border: 1px solid #ff6f0087;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: 0 0.25rem 0.375rem -0.0625rem hsl(0deg 0% 0% / 47%), 0 0.125rem 0.25rem -0.0625rem hsl(0deg 0% 23% / 53%) !important
 }
+.video_thumbnail:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow: 0 0.25rem 0.375rem -0.0625rem hsl(0deg 0% 0% / 47%), 0 0.125rem 0.25rem -0.0625rem hsl(0deg 0% 23% / 53%) !important
+}
+.video_thumbnails:hover{
+    cursor: pointer;
+    translate: 0 -14px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    box-shadow:  0 0.25rem 0.375rem -0.0625rem hsl(0deg 0% 0% / 47%),   0 0.125rem 0.25rem -0.0625rem hsl(0deg 0% 23% / 53%) !important
+}
+/* #full_video{
+    height: 700px!important;
+}
+
+@media only screen and (max-width: 769px) {
+    #full_video {
+        height: 300px!important;
+    }
+} */
+
 .loader {
     width: 100px;
     height: 100px;
