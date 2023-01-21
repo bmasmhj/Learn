@@ -11,8 +11,7 @@ function HeroHeader() {
     const el = useRef(null);
 useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["React Js", "Firebase", "Flutter", "NextJs"], // Strings to display
-      // Speed settings, try diffrent values untill you get good results
+      strings: ["React Js", "Firebase", "Flutter", "NextJs"], 
       startDelay: 100,
       typeSpeed: 100,
       backSpeed: 100,
@@ -36,7 +35,7 @@ useEffect(() => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 text-start">
-                            <h1 className="text-white">Start Learning <span ref={el}></span>
+                            <h1 className="text-white">Start Learning <span className="text-gradient text-info" ref={el}></span>
                             </h1>
                             <p className="lead text-white text-start pe-5 mt-4">The more you share is the more you learn.
                                 This website aims to share free courses from many source. </p>

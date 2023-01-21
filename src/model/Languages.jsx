@@ -2,12 +2,12 @@ import { ReactComponent as Svg } from "../assets/img/wavesmini.svg";
 function Languages(){
     return(
         <>
-           <section class="m-0 py-8 bg-white position-relative">
+           <section className="m-0 py-8 bg-white position-relative">
             <h3 className="text-center">Languages</h3>
-            <div class="container mt-8">
-                <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="row justify-content-start">
+            <div className="container mt-8">
+                <div className="row align-items-center">
+                <div className="col-lg-6">
+                    <div className="row justify-content-start">
                         <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="100" src="http://learn.bimash.com.np/assets/img/courses/1.svg" alt="course title" />
                         <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="500" src="http://learn.bimash.com.np/assets/img/courses/2.svg" alt="course title" />
                         <img className="col-2 p-4" data-aos="fade-in" data-aos-duration="300" src="http://learn.bimash.com.np/assets/img/courses/3.svg" alt="course title" />
@@ -26,15 +26,15 @@ function Languages(){
                     </div>
                     
                 </div>
-                <div class="col-lg-4 ms-auto">
-                    <div class="card">
-                    <img alt='' class="card-img-top" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/funny.jpg" />
-                    <div class="position-relative overflow-hidden smallwaves" >
-                        <div class="position-absolute w-100 top-0 z-index-1">
+                <div className="col-lg-4 ms-auto">
+                    <div className="card">
+                    <img alt='' className="card-img-top" src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/funny.jpg" />
+                    <div className="position-relative overflow-hidden smallwaves" >
+                        <div className="position-absolute w-100 top-0 z-index-1">
                             <Svg/>
                         </div>
                     </div>
-                    <div class="card-body">
+                    <div className="card-body">
                         <h4>
                        L E A R N
                         </h4>
