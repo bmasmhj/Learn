@@ -1,9 +1,11 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import Search from './Search';
 function NavBar() {
     useEffect(() => {
         startnav();
       });
+      
   return (
     <>
         <div id="navtop" className="position-sticky z-index-sticky container top-0">
@@ -16,45 +18,48 @@ function NavBar() {
                                         L E A R N
                                     </NavLink>
                                 </div>
-                        
-                                <div className="nav-item dropdown dropdown-hover mx-2">
-                                    <div className="d-flex align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false"
-                                        role="button">
-                                        <NavLink to='/Profile' className="mx-3 avatar avatar-sm rounded-circle">
-                                            <img alt="placeholder" src="https://bimash.com.np/assets/img/favicon.png" />
-                                        </NavLink>
-                                        <h6 className="d-none d-md-block m-0">Bimash</h6>
-                                    </div>
-                                    <div className="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
-                                        <div className="d-none d-lg-block">
-                                            <ul className="list-group">
-                                                <li className="nav-item list-group-item border-0 p-0">
-                                                    <NavLink className="dropdown-item py-2 ps-3 border-radius-md" to="">
-                                                        <div className="d-flex">
-                                                            <div className="icon h-10 me-3 d-flex mt-1"> </div>
-                                                            <div>
-                                                                <h6  className="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-                                                                    My Profile</h6>
-                                                            </div>
-                                                        </div>  
-                                                    </NavLink>
-                                                </li>
-                                                <li className="nav-item list-group-item border-0 p-0">
-                                                    <NavLink className="dropdown-item py-2 ps-3 border-radius-md" to="">
-                                                        <div className="d-flex">
-                                                            <div className="icon h-10 me-3 d-flex mt-1"> </div>
-                                                            <div>
-                                                                <h6 className="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
-                                                                    Log Out</h6>
-                                                            </div>
-                                                        </div>
-                                                    </NavLink>
-                                                </li>
-                                            </ul>
+                                <div className='d-flex w-50'>
+                                    <Search></Search>
+                                    <div className="nav-item dropdown dropdown-hover mx-2">
+                                        <div className="d-flex align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false"
+                                            role="button">
+                                            <NavLink to='/Profile' className="mx-3 avatar avatar-sm rounded-circle">
+                                                <img alt="placeholder" src="https://bimash.com.np/assets/img/favicon.png" />
+                                            </NavLink>
+                                            <h6 className="d-none d-md-block m-0">Bimash</h6>
                                         </div>
-                        
+                                        <div className="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+                                            <div className="d-none d-lg-block">
+                                                <ul className="list-group">
+                                                    <li className="nav-item list-group-item border-0 p-0">
+                                                        <NavLink className="dropdown-item py-2 ps-3 border-radius-md" to="">
+                                                            <div className="d-flex">
+                                                                <div className="icon h-10 me-3 d-flex mt-1"> </div>
+                                                                <div>
+                                                                    <h6  className="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                                        My Profile</h6>
+                                                                </div>
+                                                            </div>  
+                                                        </NavLink>
+                                                    </li>
+                                                    <li className="nav-item list-group-item border-0 p-0">
+                                                        <NavLink className="dropdown-item py-2 ps-3 border-radius-md" to="">
+                                                            <div className="d-flex">
+                                                                <div className="icon h-10 me-3 d-flex mt-1"> </div>
+                                                                <div>
+                                                                    <h6 className="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">
+                                                                        Log Out</h6>
+                                                                </div>
+                                                            </div>
+                                                        </NavLink>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                            
+                                        </div>
                                     </div>
                                 </div>
+                               
                             </div>
                         </nav>
                 </div>
