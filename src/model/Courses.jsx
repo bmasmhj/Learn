@@ -23,6 +23,7 @@ function Courses() {
                             <div className="row mt-5" id="popcourses">
                                     <PopularCourse/>
                             </div>
+                            <span>see more</span>
                         </div>
                     </section>
                 </div>
@@ -39,36 +40,6 @@ function PopularCourse(){
             <div className="card bg-transparent move-on-hover">
                 <div className="card-body p-0">
                     <img className="w-100" src="https://learn.bimash.com.np/assets/img/thumbnails/cloud-functions-master-course-02-what-is-serverless.png" alt="course title" />
-                </div>
-            </div>
-            <h6 className="p-3">Course Title</h6>
-        </NavLink>
-        <NavLink to="Video/dart-101"  data-aos="fade-up" data-aos-delay="100" className="col-lg-3 mb-3 ">
-            <div className="card bg-transparent move-on-hover">
-                <div className="card-body p-0">
-                    <img className="w-100"
-                        src="https://learn.bimash.com.np/assets/img/thumbnails/dart-101-01-dart-in-100-seconds.png"
-                        alt="course title" />
-                </div>
-            </div>
-            <h6 className="p-3">Course Title</h6>
-        </NavLink>
-        <NavLink to="Video/firebase-security-course"  data-aos="fade-up" data-aos-delay="200" className="col-lg-3 mb-3 ">
-            <div className="card bg-transparent move-on-hover">
-                <div className="card-body p-0">
-                    <img className="w-100"
-                        src="https://learn.bimash.com.np/assets/img/thumbnails/firebase-security-course-01-firebase-security-in-100-seconds.png"
-                        alt="course title" />
-                </div>
-            </div>
-            <h6 className="p-3">Course Title</h6>
-        </NavLink>
-        <NavLink to="Video/firestore-data-modeling"  data-aos="fade-up" data-aos-delay="300" className="col-lg-3 mb-3 ">
-            <div className="card bg-transparent move-on-hover">
-                <div className="card-body p-0">
-                    <img className="w-100"
-                        src="https://learn.bimash.com.np/assets/img/thumbnails/firestore-data-modeling-01-resources.png"
-                        alt="course title" />
                 </div>
             </div>
             <h6 className="p-3">Course Title</h6>
