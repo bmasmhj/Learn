@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import InternetDetector from '../Controller/InternetDetector';
 import Search from './Search';
 function NavBar() {
     useEffect(() => {
@@ -8,6 +9,7 @@ function NavBar() {
       
   return (
     <>
+    <InternetDetector/>
         <div id="navtop" className="position-sticky z-index-sticky container top-0">
             <div className="row">
                 <div className="col-12">
