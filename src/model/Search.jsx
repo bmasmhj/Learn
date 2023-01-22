@@ -25,7 +25,7 @@ export default function Search(){
             <>
             <div className="nav-item dropdown dropdown-hover w-80 mx-2">
                 <div className="d-flex align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" role="button">
-                    <input type="search" id="searchvalue" className="form-control" placeholder="Search.." onClick={getSearch} onChange={getSearch} />
+                    <input type="search" id="searchvalue" className="form-control" placeholder="Search.. Eg: React Js" onClick={getSearch} onChange={getSearch} />
                 </div>
                 <div className=" sr mt-0 mt-lg-3 p-3 border-radius-lg" id='searchlistbar' aria-labelledby="dropdownMenuDocs">
                     <div className="d-none d-lg-block">
