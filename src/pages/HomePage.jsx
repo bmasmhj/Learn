@@ -1,5 +1,5 @@
 import NavBar from "../model/NavBar";
-import '../assets/css/cstm.css'; 
+import '../assets/css/cstm.scss'; 
 import Courses from '../model/Courses';
 import HeroHeader from "../model/HeroHeader";
 import Teams from "../model/Teams";

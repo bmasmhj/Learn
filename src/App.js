@@ -1,6 +1,6 @@
 import HomePage from './pages/HomePage';
 import {  Routes, Route } from "react-router-dom";
-import './assets/css/cstm.css';
+import './assets/css/cstm.scss';
 import Video from './pages/Video';
 import Course from './pages/Course';
 import AllCourse from './pages/AllCourse';
