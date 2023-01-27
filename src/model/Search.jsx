@@ -5,12 +5,13 @@ import { NavLink } from "react-router-dom";
 export default function Search(){
     const [search_res, setSearch]= useState([]);
     const getSearch = async ()=>{
+        const searchbar = document.getElementById('searchlistbar');
         try{
            var q = document.getElementById('searchvalue').value;
             if(q.trim()===''){
-                    document.getElementById('searchlistbar').classList.remove('searchresult')
+                searchbar.classList.remove('searchresult')
             }else{
-                    document.getElementById('searchlistbar').classList.add('searchresult')
+                searchbar.classList.add('searchresult')
             }
             const search_data = await Instance.get(`/search.php?q=${q}`);
             setSearch(search_data.data);
@@ -55,5 +56,7 @@ export default function Search(){
 }
 
 document.body.addEventListener('click', function(){
-    document.getElementById('searchlistbar').classList.remove('searchresult')
+    if(document.getElementById('searchlistbar')){
+        document.getElementById('searchlistbar').classList.remove('searchresult')
+    }
 }); 
