@@ -6,14 +6,14 @@ function Footer(){
             <div className="container position-relative">
               <div className="row">
                 <div className="col-lg-4 me-auto my-auto text-lg-start text-center">
-                  <h6 className="text-white font-weight-bolder text-uppercase mb-2">Soft</h6>
+                  <h6 className="text-white font-weight-bolder text-uppercase mb-2">L E A R N</h6>
                   <p className="text-white">
-                    Copyright © 2022 L E A R N by BCA Teams.
+                    Copyright © 2023
                   </p>
                 </div>
               <div className="col-lg-6">
                   <h6 className="text-white">Subscribe</h6>
-                  <p className="text-white text-sm">Get access to subscriber exclusive deals and be the first who gets informed about fresh sales.</p>
+                  <p className="text-white text-sm">Get notified when we upload some new and fresh contents</p>
                   <div className="d-flex flex-row justify-content-between ">
                       <div className="w-90 m-0  form-group">
                         <div className="input-group m-0  input-group-alternative">
