@@ -29,8 +29,21 @@ export default function Video(){
 
     useEffect(() => {
         getplaylist();
+        // if(document.getElementById('playlist')){
+        //     var selected = document.querySelector('#playlist').offsetTop;
+        //     var active = document.getElementsByClassName('active');
+        //     active.scrollTop = selected.offsetTop;
+        // }
+       
     }, [course_id , video_id]);
 
+    useEffect(()=>{
+        if(document.getElementById('playlist')){
+            var width = document.getElementById('playlist').offsetWidth;
+            var element = document.getElementById("fixedplaylist");
+            element.style.width = (width-21)+"px";
+        }
+    })
     if(allplaylist !== undefined){
         return(
             <>
@@ -52,27 +65,31 @@ export default function Video(){
                                 );
                             })}
                         </div>
-                        <div className="col-md-3  col-xs-12" id="">
-                             <h4 className="" id="class_title">{course_title}</h4>
-                            <div id="video-previews" className="mbl p-4 m-0">
-                                {allplaylist.map((currElem) => {
-                                    return (
-                                        <>
-                                            <PlayList 
-                                                key={currElem.id+Math.floor((Math.random() * 100) + 1).toString()}
-                                                currElem = {currElem}                         
-                                            />
-                                        </>
-                                    );
-                                })}
-                            </div> 
+                        <div className="col-md-3 col-xs-12" id="playlist">
+                           <div className="platlists p-0 position-fixed" id='fixedplaylist'>
+                              <h4 className="px-4 pt-2" id="class_title">{course_title}</h4>
+                                <div id="video-previews" className="mbl p-4 m-0">
+                                    {allplaylist.map((currElem) => {
+                                        return (
+                                            <>
+                                                <PlayList 
+                                                    key={currElem.id+Math.floor((Math.random() * 100) + 1).toString()}
+                                                    currElem = {currElem}                         
+                                                />
+                                            </>
+                                        );
+                                    })}
+                                </div> 
+                           </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
-
             </>
         )
     }
 
 }
+
+    
