@@ -5,8 +5,6 @@ import NavBar from "../model/NavBar";
 
 function AllCourse() {
     const [popularlist , setpopularcourse] = useState([]);
-
-
     const pupularcourses = async () => {
         try {
             const res_course = await Instance.get(`/get_all_course.php`);
